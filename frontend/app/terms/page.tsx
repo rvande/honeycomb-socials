@@ -6,8 +6,8 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://honeycombsocials.co
 const ogImageUrl = 'https://honeycomb-socials.s3.us-east-1.amazonaws.com/OG_Image_ff4eaa3237.png';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Honeycomb Socials',
-  description: 'Terms of Service for the Honeycomb Socials website. Learn about website usage terms, intellectual property rights, and legal disclaimers.',
+  title: 'Terms of Service | Honeycomb Socials LLC',
+  description: 'Terms of Service for the Honeycomb Socials LLC website. Learn about website usage terms, intellectual property rights, and legal disclaimers.',
   alternates: {
     canonical: `${baseUrl}/terms`,
   },
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: `${baseUrl}/terms`,
-    title: 'Terms of Service | Honeycomb Socials',
-    description: 'Terms of Service for the Honeycomb Socials website. Learn about website usage terms and legal disclaimers.',
+    title: 'Terms of Service | Honeycomb Socials LLC',
+    description: 'Terms of Service for the Honeycomb Socials LLC website. Learn about website usage terms and legal disclaimers.',
     siteName: 'Honeycomb Socials',
     images: [
       {
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Terms of Service | Honeycomb Socials',
-    description: 'Terms of Service for the Honeycomb Socials website. Learn about website usage terms and legal disclaimers.',
+    title: 'Terms of Service | Honeycomb Socials LLC',
+    description: 'Terms of Service for the Honeycomb Socials LLC website. Learn about website usage terms and legal disclaimers.',
     images: [ogImageUrl],
   },
 }
@@ -71,7 +71,7 @@ export default function TermsPage() {
               <div>
                 <div className="space-y-4 text-foreground/90 leading-relaxed">
                   <p>
-                    These Terms of Service govern your access to and use of the Honeycomb Socials website.
+                    These Terms of Service govern your access to and use of the Honeycomb Socials LLC website.
                   </p>
                 </div>
               </div>
@@ -81,10 +81,10 @@ export default function TermsPage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">1. Agreement to Terms</h2>
                 <div className="space-y-4 text-foreground/90 leading-relaxed">
                   <p>
-                    These Terms of Service ("Terms") govern your access to and use of the Honeycomb Socials website (the "Website"). By accessing or using this Website, you agree to be bound by these Terms. If you do not agree, please do not use the Website.
+                    These Terms of Service ("Terms") govern your access to and use of the Honeycomb Socials LLC website (the "Website"). By accessing or using this Website, you agree to be bound by these Terms. If you do not agree, please do not use the Website.
                   </p>
                   <p>
-                    These Terms apply only to website use. Any services provided by Honeycomb Socials are governed by separate written agreements.
+                    These Terms apply only to website use. Any services provided by Honeycomb Socials LLC are governed by separate written agreements.
                   </p>
                 </div>
               </div>
@@ -116,7 +116,7 @@ export default function TermsPage() {
                     Information on this Website is provided for general informational purposes only. Nothing on this Website constitutes marketing, legal, financial, or business advice.
                   </p>
                   <p>
-                    Submitting a contact form, inquiry, or application through the Website does not create a client relationship or obligate Honeycomb Socials to provide services. A client relationship is established only through a separate, signed agreement.
+                    Submitting a contact form, inquiry, or application through the Website does not create a client relationship or obligate Honeycomb Socials LLC to provide services. A client relationship is established only through a separate, signed agreement.
                   </p>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function TermsPage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">4. Intellectual Property</h2>
                 <div className="space-y-4 text-foreground/90 leading-relaxed">
                   <p>
-                    All content on this Website, including text, graphics, logos, images, branding, and written materials, is the property of Honeycomb Socials or its licensors and is protected by intellectual property laws.
+                    All content on this Website, including text, graphics, logos, images, branding, and written materials, is the property of Honeycomb Socials LLC or its licensors and is protected by intellectual property laws.
                   </p>
                   <p>
                     You may not copy, reproduce, distribute, modify, or create derivative works from Website content without prior written permission.
@@ -139,7 +139,7 @@ export default function TermsPage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">5. Third-Party Links</h2>
                 <div className="space-y-4 text-foreground/90 leading-relaxed">
                   <p>
-                    This Website may contain links to third-party websites or platforms. Honeycomb Socials is not responsible for the content, policies, or practices of third-party sites. Accessing third-party links is at your own risk.
+                    This Website may contain links to third-party websites or platforms. Honeycomb Socials LLC is not responsible for the content, policies, or practices of third-party sites. Accessing third-party links is at your own risk.
                   </p>
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function TermsPage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">7. Limitation of Liability</h2>
                 <div className="space-y-4 text-foreground/90 leading-relaxed">
                   <p>
-                    To the fullest extent permitted by law, Honeycomb Socials shall not be liable for any damages arising from or related to your use of, or inability to use, the Website. This includes, without limitation, indirect, incidental, consequential, or lost-profit damages.
+                    To the fullest extent permitted by law, Honeycomb Socials LLC shall not be liable for any damages arising from or related to your use of, or inability to use, the Website. This includes, without limitation, indirect, incidental, consequential, or lost-profit damages.
                   </p>
                   <p>
                     Your sole remedy for dissatisfaction with the Website is to stop using it.
@@ -198,7 +198,7 @@ export default function TermsPage() {
                     If you have questions about these Terms, please contact:
                   </p>
                   <p>
-                    <strong>Honeycomb Socials</strong><br />
+                    <strong>Honeycomb Socials LLC</strong><br />
                     Email: <a href="mailto:contact@honeycombsocials.com" className="text-primary hover:underline">contact@honeycombsocials.com</a>
                   </p>
                 </div>

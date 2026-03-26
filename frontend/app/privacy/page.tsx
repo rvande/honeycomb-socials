@@ -6,8 +6,8 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://honeycombsocials.co
 const ogImageUrl = 'https://honeycomb-socials.s3.us-east-1.amazonaws.com/OG_Image_ff4eaa3237.png';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Honeycomb Socials',
-  description: 'Privacy Policy for Honeycomb Socials. Learn how we collect, use, and protect your personal information and data.',
+  title: 'Privacy Policy | Honeycomb Socials LLC',
+  description: 'Privacy Policy for Honeycomb Socials LLC. Learn how we collect, use, and protect your personal information and data.',
   alternates: {
     canonical: `${baseUrl}/privacy`,
   },
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: `${baseUrl}/privacy`,
-    title: 'Privacy Policy | Honeycomb Socials',
-    description: 'Privacy Policy for Honeycomb Socials. Learn how we collect, use, and protect your personal information.',
+    title: 'Privacy Policy | Honeycomb Socials LLC',
+    description: 'Privacy Policy for Honeycomb Socials LLC. Learn how we collect, use, and protect your personal information.',
     siteName: 'Honeycomb Socials',
     images: [
       {
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Privacy Policy | Honeycomb Socials',
-    description: 'Privacy Policy for Honeycomb Socials. Learn how we collect, use, and protect your personal information.',
+    title: 'Privacy Policy | Honeycomb Socials LLC',
+    description: 'Privacy Policy for Honeycomb Socials LLC. Learn how we collect, use, and protect your personal information.',
     images: [ogImageUrl],
   },
 }
@@ -72,7 +72,7 @@ export default function PrivacyPage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">1. Introduction</h2>
                 <div className="space-y-4 text-foreground/90 leading-relaxed">
                   <p>
-                    Honeycomb Socials ("we," "us," "our," or "Company") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you visit our website, use our services, or interact with us.
+                    Honeycomb Socials LLC ("we," "us," "our," or "Company") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you visit our website, use our services, or interact with us.
                   </p>
                   <p>
                     By using our website or services, you agree to the collection and use of information in accordance with this Privacy Policy. We reserve the right to update this Privacy Policy at any time. Material changes will be communicated to active clients and users through email or prominent notice on our website.
@@ -362,7 +362,7 @@ export default function PrivacyPage() {
                     If you have questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us:
                   </p>
                   <p>
-                    <strong>Honeycomb Socials</strong><br />
+                    <strong>Honeycomb Socials LLC</strong><br />
                     Email: <a href="mailto:contact@honeycombsocials.com" className="text-primary hover:underline">contact@honeycombsocials.com</a>
                   </p>
                   <p className="mt-4">
