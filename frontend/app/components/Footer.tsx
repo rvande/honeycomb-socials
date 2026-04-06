@@ -82,7 +82,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block mb-6">
               <Image
-                src="/logo-gold.png"
+                src="/gold-logo.png"
                 alt="Honeycomb Socials"
                 width={300}
                 height={102}

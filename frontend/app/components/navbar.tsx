@@ -77,7 +77,7 @@ export function Navbar({ className }: NavbarProps) {
           <Link href="/" className="flex items-center">
             {/* Logo */}
             <Image
-              src="/logo-gold.png"
+              src="/logo.png"
               alt="Honeycomb Socials"
               width={350}
               height={120}
